@@ -45,6 +45,11 @@
             key-positions = <26 27>;
             timeout-ms = <50>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
+        };
     };
 
     behaviors {
@@ -94,16 +99,16 @@
 
         default_layer {
             bindings = <
-&kp Q                      &kp W                          &kp E                      &kp R         &kp T      &kp Y                    &kp U         &kp I         &kp O        &kp P
-&bhm LGUI A                &bhm LALT S                    &bhm LSHFT D               &bhm LCTRL F  &kp G      &kp H                    &bhm RCTRL J  &bhm RSHFT K  &bhm LALT L  &bhm RIGHT_GUI SEMICOLON
-&kp Z                      &kp X                          &kp C                      &kp V         &kp B      &kp N                    &kp M         &kp COMMA     &kp PERIOD   &kp FSLH
-             &kp CAPSLOCK               &ltq 2 BACKSPACE                &lt 1 SPACE                &kp ENTER  &ltq 2 BACKSPACE  &mo 4
+&kp Q                      &kp W                      &kp E                      &kp R         &kp T          &kp Y                &kp U         &kp I         &kp O        &kp P
+&bhm LGUI A                &bhm LALT S                &bhm LSHFT D               &bhm LCTRL F  &kp G          &kp H                &bhm RCTRL J  &bhm RSHFT K  &bhm LALT L  &bhm RIGHT_GUI SEMICOLON
+&kp Z                      &kp X                      &kp C                      &kp V         &kp B          &kp N                &kp M         &kp COMMA     &kp PERIOD   &kp FSLH
+             &kp CAPSLOCK               &ltq 1 SPACE                &lt 1 SPACE                &kp BACKSPACE  &ltq 2 ENTER  &mo 4
             >;
         };
 
         lower_layer {
             bindings = <
-&trans          &trans          &kp UP          &trans  &trans  &none           &trans  &trans  &trans  &trans
+&trans          &trans          &trans          &trans  &trans  &none           &trans  &trans  &trans  &trans
 &kp N1          &kp N2          &kp N3          &kp N4  &kp N5  &kp N6          &kp N7  &kp N8  &kp N9  &kp N0
 &trans          &trans          &trans          &trans  &trans  &trans          &trans  &trans  &trans  &trans
         &trans          &trans          &trans          &trans  &trans  &trans
