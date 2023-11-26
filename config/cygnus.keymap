@@ -55,6 +55,11 @@
             bindings = <&kp BACKSLASH>;
             key-positions = <9 8>;
         };
+
+        caps {
+            bindings = <&kp CAPS>;
+            key-positions = <20 21>;
+        };
     };
 
     behaviors {
