@@ -18,6 +18,10 @@
     quick-release;
 };
 
+&lt {
+    tapping-term-ms = <50>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
