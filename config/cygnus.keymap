@@ -65,6 +65,11 @@
             bindings = <&kp CAPS>;
             key-positions = <20 21>;
         };
+
+        dot {
+            bindings = <&kp APOS>;
+            key-positions = <29 28>;
+        };
     };
 
     behaviors {
