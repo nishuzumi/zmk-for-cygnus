@@ -130,7 +130,7 @@
 
         lower_layer {
             bindings = <
-&kp GRAVE                 &trans                &trans                  &trans         &trans  &none           &kp MINUS      &kp EQUAL       &trans        &trans
+&kp GRAVE                 &trans                &trans                  &trans         &trans  &none           &trans         &kp MINUS       &kp EQUAL     &trans
 &bhm LEFT_GUI N1          &bhm LALT N2          &bhm LSHIFT N3          &bhm LCTRL N4  &kp N5  &kp N6          &bhm RCTRL N7  &bhm RSHIFT N8  &bhm LALT N9  &bhm RGUI N0
 &trans                    &trans                &trans                  &trans         &trans  &trans          &trans         &trans          &trans        &trans
                   &trans                &trans                  &trans                 &trans  &trans  &trans
