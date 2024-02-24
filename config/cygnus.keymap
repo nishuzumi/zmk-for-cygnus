@@ -73,13 +73,6 @@
     };
 
     behaviors {
-        tab_esc_ctrl: tab_esc_ctrl {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAB_ESC_CTRL";
-            #binding-cells = <0>;
-            bindings = <&mt LCTRL ESC>, <&kp TAB>;
-        };
-
         gqt: global-quick-tap {
             compatible = "zmk,behavior-hold-tap";
             label = "GLOBAL_QUICK_TAP";
